@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <title>Zašto volim Lejlu Ramić</title>
+  <style>
+    :root {
+      --bg-color: #f4f4f4;
+      --text-color: #000;
+      --header-color: #f1c6d0;
+      --nav-color: #ff89a3;
+      --box-color: #fff;
+      --highlight-color: #ff66b2;
+      --accent-color: #ff4d8b;
+      --font-primary: 'Arial', sans-serif;
+      --font-secondary: 'Verdana', sans-serif;
+      --border-radius: 10px;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-primary);
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--header-color);
+      color: white;
+      text-align: center;
+      padding: 4rem 0;
+      background-image: url('https://via.placeholder.com/1200x400');
+      background-size: cover;
+      background-position: center;
+      border-bottom: 4px solid var(--accent-color);
+      position: relative;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      font-family: var(--font-secondary);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 0;
+      animation: fadeIn 1.5s ease-out;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    nav {
+      background-color: var(--nav-color);
+      text-align: center;
+      padding: 1.5rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--highlight-color);
+      transform: scale(1.1);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background-color: var(--box-color);
+      padding: 2rem;
+      border-radius: var(--border-radius);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .container:hover {
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+      color: var(--highlight-color);
+      font-size: 2.5rem;
+      font-family: var(--font-secondary);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 1.7rem;
+      font-weight: bold;
+      color: var(--highlight-color);
+      margin-top: 2rem;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .buttons button {
+      margin: 0.5rem;
+      padding: 12px 24px;
+      background-color: var(--accent-color);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .buttons button:hover {
+      background-color: var(--highlight-color);
+      transform: scale(1.1);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .content-section {
+      background-color: #fff;
+      padding: 25px;
+      margin: 20px 0;
+      border-radius: var(--border-radius);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .content-section:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .content-section img {
+      max-width: 100%;
+      border-radius: var(--border-radius);
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease;
+    }
+
+    .content-section img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: var(--header-color);
+      color: white;
+      font-family: var(--font-secondary);
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    footer p {
+      font-size: 1.2rem;
+    }
+
+    .content {
+      margin-bottom: 3rem;
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .content-section p {
+      opacity: 0;
+      animation: fadeInText 1s ease-out forwards;
+    }
+
+    @keyframes fadeInText {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .content-section:nth-child(odd) p {
+      animation-delay: 0.5s;
+    }
+
+    .content-section:nth-child(even) p {
+      animation-delay: 1s;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Zašto volim Lejlu Ramić</h1>
+  </header>
+
+  <nav>
+    <a href="#volim">Zašto je volim</a>
+    <a href="#lijepa">Zašto je lijepa</a>
+    <a href="#oci">Njene oči</a>
+    <a href="#sans">Zašto bi mi trebala dati šansu</a>
+  </nav>
+
+  <div class="buttons">
+    <button onclick="window.location.href='https://www.youtube.com/watch?v=36_WNxgs7s4'">🎶 Poslušaj pjesmu Lejla</button>
+  </div>
+
+  <div class="container">
+
+    <section id="volim" class="content">
+      <h2>Zašto je volim</h2>
+      <div class="content-section">
+        <p>Lejla Ramić je osoba koju volim iz više razloga. Prvo, ona ima nevjerojatnu sposobnost da bude tu za svakog, u svakom trenutku. Njena nesebičnost i pažnja prema detaljima čine je izuzetnom. Njene riječi su utjeha, a njena prisutnost daje snagu. Oduvijek ima sposobnost da vas nasmije čak i kada ste tužni. Niti jedna situacija joj nije preteška, uvijek ima odgovor i rješenje, što ju čini nevjerojatno sposobnom ženom.</p>
+        <p>Njena ljubaznost prema svima čini da se osjećate voljeno i poštovano. Bilo da je riječ o prijateljima, obitelji ili strancima, uvijek će biti osoba koja će pružiti pomoć. Osim toga, Lejla ima nevjerojatnu energiju koja vas motivira da budete bolja verzija sebe. S njom u svom životu, možete biti sigurni da ćete uvijek imati podršku koju trebate.</p>
+        <p>Volim je zbog njenog optimizma i sposobnosti da uvijek vidi svijetlu stranu u svakom izazovu. Lejla vjeruje da nema neuspjeha, samo prilike za rast, i ta filozofija života čini je još posebnijom. Uz Lejlu, uvijek je moguće ostvariti snove i nadmašiti vlastite granice. Tu je da vas podigne i motivira da se borite za svoje ciljeve. To su samo neki od razloga zbog kojih je volim, ali ima ih mnogo više, svaki dan!</p>
+        <p>Bez obzira na sve, Lejla uvijek ostaje skromna i uvijek je tu za ljude do kojih joj je stalo. Njene riječi inspiriraju, a njena prisutnost pruža sigurnost. Volim ju jer ona čini svijet ljepšim mjestom i jer me svaki put podsjeti da je ljubav najvažnija stvar na svijetu.</p>
+      </div>
+    </section>
+
+    <section id="lijepa" class="content">
+      <h2>Zašto je lijepa</h2>
+      <div class="content-section">
+        <p>Lejla Ramić je lijepa, ali njena ljepota nije samo u tome kako izgleda. Naravno, njene crte lica su predivne, njene oči su svjetlucave, a osmijeh može osvijetliti cijeli prostor. Ali prava ljepota dolazi iznutra, iz njenog karaktera i načina na koji se ponaša prema svijetu. Njena ljubaznost i nesebičnost čine je još ljepšom.</p>
+        <p>Niti jedna njena osobina nije slučajna – sve što je čini lijepom proizlazi iz njenog divnog srca. Nježna je, pažljiva i uvijek spremna pomoći, što ju čini jedinstvenom i neponovljivom. Ljepota njezinog duha odražava se u svemu što radi. Ona je ona vrsta osobe koja svojim prisustvom čini da se osjećate bolje.</p>
+        <p>Ljepota Lejle nije samo fizička, ona je duboko ukorijenjena u njenoj duši. Svaka njezina gesta, svaka njezina riječ odražava tu unutarnju ljepotu koja je vidljiva svim prisutnima. Njena sposobnost da voli i razumije ljude čini je nezamjenjivom. Njena sposobnost da vidi ljepotu u svijetu i ljudima oko sebe također ju čini izuzetno lijepom osobom.</p>
+        <p>Svaka njena riječ, svaki njen osmijeh i svaki pogled ima svoju duboku simboliku. Lijepa je jer čini svijet ljepšim, jer voli sa svim svojim srcem, i jer vjeruje u najbolje u ljudima. Njena vanjska ljepota je samo odraz onog što nosi unutar sebe.</p>
+      </div>
+    </section>
+
+    <section id="oci" class="content">
+      <h2>Njene oči</h2>
+      <div class="content-section">
+        <p>Lejline oči su posebne, to je nešto što se jednostavno ne može opisati riječima. Ima boje koje očaraju i sposobnost da vas očaraju pogledom koji je pun topline i nježnosti. Njene oči su poput dvaju bisera koji svjetlucaju pod svjetlom, a pogled kroz njih daje osjećaj sigurnosti i ljubavi. Svaka njena emocija vidi se kroz njene oči, jer one su odraz njezine duše.</p>
+        <p>Njene oči nisu samo lijepa vanjska svojstva, već imaju sposobnost da komuniciraju bez riječi. Kroz njezin pogled možete osjetiti njezinu ljubav, njezinu brigu i njezinu strast prema životu. Njene oči su uvijek pune životne energije, optimizma i nade. U njima možete osjetiti čitav njen svijet, a ta njihova dubina je ono što ih čini nezaboravnim.</p>
+        <p>Oči Lejle Ramić su toliko lijepe da se ne možete zasititi njihovog pogleda. Često zaboravite na sve oko sebe dok gledate u njezine oči, jer one imaju neku vrstu magije koja vas tjera da se zadržite u trenutku. Iako njezine oči ne govore mnogo, one su puno toga rekla tijekom godina. Svaka priča koju nosi Lejla može biti ispričana samo kroz njezin pogled.</p>
+      </div>
+    </section>
+
+    <section id="sans" class="content">
+      <h2>Zašto bi mi trebala dati šansu</h2>
+      <div class="content-section">
+        <p>Lejla bi mi trebala dati šansu jer vjerujem da bih mogao pružiti nešto zaista vrijedno u njenom životu. Nisam savršen, ali imam veliko srce koje je spremno voljeti i cijeniti nju za sve što jeste. Uz nju bih želio rasti i zajedno s njom graditi nešto prelijepo. Osim toga, vjerujem da zajedno možemo stvoriti nešto posebno, temeljeno na međusobnom povjerenju i ljubavi.</p>
+        <p>Volio bih joj pružiti sreću koju zaslužuje i biti podrška u njenim izazovima. Mislim da zajedno možemo napraviti nevjerojatnu priču, ispunjenu ljubavlju i razumijevanjem. Njena snaga, nježnost i strast za životom su kvalitete koje bih volio dijeliti i podržavati svaki dan. Ja sam tu da budem njezin najbolji prijatelj, partner i oslonac kad god to bude potrebno.</p>
+        <p>Smatram da ljubav i međusobno poštovanje trebaju biti temelj svakog odnosa. Zajedno bismo mogli graditi odnos koji bi bio pun smijeha, radosti, i zajedničkog napora da budemo najbolja verzija sebe. Lejla zaslužuje partnera koji će je cijeniti i razumjeti, i ja bih želio biti ta osoba.</p>
+      </div>
+    </section>
+
+  </div>
+<style>
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .info-box {
+    background-color: var(--box-color);
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .info-box:hover {
+    transform: scale(1.05);
+    background-color: var(--nav-color);
+    color: white;
+  }
+
+  .info-hidden {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    font-size: 0.95rem;
+    color: white;
+  }
+
+  .info-box.clicked .info-hidden {
+    opacity: 1;
+  }
+</style>
+
+<div class="info-grid">
+  <div class="info-box" onclick="this.classList.toggle('clicked')">
+    ❤️ Klikni da vidiš
+    <div class="info-hidden">Lejla ima osmijeh koji može dan učiniti boljim za manje od sekunde.</div>
+  </div>
+  <div class="info-box" onclick="this.classList.toggle('clicked')">
+    ✨ Klikni da vidiš
+    <div class="info-hidden">Kad god razgovaram s njom, osjećam kao da vrijeme stane.</div>
+  </div>
+  <div class="info-box" onclick="this.classList.toggle('clicked')">
+    🌸 Klikni da vidiš
+    <div class="info-hidden">Lejla ima tu posebnu energiju koja sve oko nje čini toplijim.</div>
+  </div>
+  <div class="info-box" onclick="this.classList.toggle('clicked')">
+    💫 Klikni da vidiš
+    <div class="info-hidden">Njene oči… stvarno izgledaju kao da u njima svemir pleše.</div>
+  </div>
+</div>
+
+
+  <footer>
+    &copy; 2025 Lejla Ramić - Stranica o ljubavi i divnim ljudima
+  </footer>
+
+</body>
+</html>
